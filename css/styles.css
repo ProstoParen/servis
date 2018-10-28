@@ -6132,16 +6132,7 @@ button.close {
 .nav-menu ul li:hover > ul {
   display: block;
 }
-.nav-menu ul li.has-child:before {
-  content: "\f0d7";
-  font-family: FontAwesome;
-  position: absolute;
-  color: #07a0dc;
-  font-size: 14px;
-  left: 95%;
-  top: 20px;
-  margin-left: -6px;
-}
+
 .nav-menu ul li ul {
   background: #103b7a;
 }
