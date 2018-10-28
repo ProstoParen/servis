@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Простосервис</title>
-
+    <title>Простосервис - Мозырский сервис по ремонту автомобилей</title>
+    <meta name="description" content="Ремонт автомобилей в Мозыре - диагностика, автоэлектрика, развал-схождение, шиномонтаж, капитальный ремонт двигателя и ходовой части.">
     <!-- Bootstrap -->
     <link href="css/styles.css" rel="stylesheet">
 
@@ -15,6 +15,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?159"></script>
+    <script type="text/javascript">
+    VK.init({apiId: API_ID, onlyWidgets: true});
+    </script>
   </head>
   <body>
     
@@ -34,8 +39,7 @@
 				        </button>
 
 				        <div class="logo navbar-brand">
-                  <b>Здесь <br>будет лого</b>
-				        	<!-- <a href="#"><img src="images/logo.png" alt="" title="Bengkel"></a> -->
+				        	<a href="#"><img src="images/logo.png" alt="logo" width="150px" height="85px" title="Bengkel"></a>
 				        </div><!-- end logo -->
 
 				        <nav id="primary-navigation" class="site-navigation navbar-collapse collapse" role="navigation">
@@ -54,7 +58,7 @@
 				        </nav><!-- end #primary-navigation -->
 
 				        <div class="appoinment-header">
-				        	<a href="#contact.html" class="btn btn-md btn-default">Заказать звонок</a>
+				        	<a href="#contact.html" class="btn btn-md btn-default">Связаться с нами</a>
 				        </div>
 
     				</div><!-- end row -->
@@ -70,24 +74,24 @@
     				<li style="background-image: url('images/content/slides-01.jpg')">
     					<div class="flex-caption">
     						<h2 class="animated fadeInRight">Опыт и профессионализм</h2>
-    						<p class="animated fadeInLeft"><em>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</em></p>
-    						<div class="btn btn-md btn-line animated fadeInUp">LEARN MORE</div>
+    						<p class="animated fadeInLeft"><em>Несмотря на молодость нашего сервиса его специалисты это профессионалы своего дела.</em></p>
+    						<div class="btn btn-md btn-line animated fadeInUp">Узнать больше</div>
     					</div>
     				</li>
 
     				<li style="background-image: url('images/content/slides-02.jpg')">
     					<div class="flex-caption">
     						<h2 class="animated fadeInRight">Высокие технологии производства</h2>
-    						<p class="animated fadeInLeft"><em>Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</em></p>
-    						<div class="btn btn-md btn-line animated fadeInUp">LEARN MORE</div>
+    						<p class="animated fadeInLeft"><em>Мы работаем с самым современным оборудованием и постоянно развиваемся</em></p>
+    						<div class="btn btn-md btn-line animated fadeInUp">Узнать больше</div>
     					</div>
     				</li>
 
     				<li style="background-image: url('images/content/slides-03.jpg')">
     					<div class="flex-caption">
     						<h2 class="animated fadeInRight">Сервис с душой</h2>
-    						<p class="animated fadeInLeft"><em>Claritas est etiam processus dynamicus lectorum.</em></p>
-    						<div class="btn btn-md btn-line animated fadeInUp">LEARN MORE</div>
+    						<p class="animated fadeInLeft"><em>Репутация в Мозыре это - всё! Поэтому мы так ей дорожим.</em></p>
+    						<div class="btn btn-md btn-line animated fadeInUp">Узнать больше</div>
     					</div>
     				</li>
 
@@ -101,9 +105,8 @@
     					<h3><i class="fa fa-fw fa-clock-o"></i>Время работы</h3>
     				</div>
     				<div class="content-box">
-    					<p>Вторник &dash; Суббота : 08.00 &dash; 20.00</p>
-    					<p>Воскресенье : 08.00 &dash; 19.00</p>
-    					<p>Понедельник : Закрыто</p>
+              <p>Без обеда и выходных</p>
+    					<p>Понедельник &dash; Воскресенье:<br> 10.00 &dash; 19.00</p>
     				</div><!-- end content-box -->
     			</div><!-- end row-box -->
 
@@ -112,8 +115,8 @@
     					<h3><i class="fa fa-fw fa-map-marker"></i> Где мы</h3>
     				</div>
     				<div class="content-box">
-    					<p>Адрес<br/></p>
-    					<a href="#" class="btn btn-sm btn-white">GET DIRECTION</a>
+    					<p>г. Мозырь <br> ул.Ветровая 21<br/></p>
+    					<a href="#map" class="btn btn-sm btn-white">Схема проезда</a>
     				</div><!-- end content-box -->
     			</div><!-- end row-box -->
 
@@ -122,8 +125,8 @@
     					<h3><i class="fa fa-fw fa-phone"></i> Горячая линия</h3>
     				</div>
     				<div class="content-box">
-    					<p class="tlg">333 333 333</p>
-    					<p>Velcom : +375 29 333 333 333</p>
+    				<a class="tlg" href="tel:+3 (7533) 347 30 63">+375 (33) 347 30 63</a><br>
+    				<a class="tlg" href="tel:+3 (7529) 734 23 75">+375 (29) 734 23 75</a>
     				</div><!-- end content-box -->
     			</div><!-- end row-box -->
 
@@ -191,7 +194,7 @@
     	<div class="about-section">
     		<div class="container">
     			<div class="row">
-    				<div class="col-md-6">
+    				<div class="col-md-6 about-box">
 
                         <div class="white-box">
 
@@ -200,87 +203,23 @@
         					</div><!-- end about-title -->
 
         					<div class="about-content">
-        						<p>Рекламный текст</p>
+        						<p><strong>Мы</strong> - молодой коллектив профессиональных автомехаников, объеденивших свой опыт с пожеланиями постоянных клиентов, для организации автосервиса в центре Мозыря.
+                        Постоянно растя и развиваясь мы не забываем что главное в работе это - особое отношение к клиентам и их автомобилям. Понимая специфику работы в небольшом городе мы бережно храним свою репутацию и обеспечиваем максимальным вниманием каждого клиента.
+                        Мы стараемся максимально сократить вовлеченность клиента в процесс авторемонта, сократить его возможные затраты, в тоже время, обеспечиваем автомобиль заказчика полноценным и квалифицированным сервисом.</p>
                                 <h4><strong>Наши преимущества</strong></h4>
                                 <ul>
-                                    <li><strong>Лучший</strong> сервис</li>
-                                    <li><strong>Быстро</strong> и  <strong>Качественно</strong></li>
-                                    <li>и т.д.</li>
+                                    <li>Мы имеем богатый опыт авторемонта как отечественных, так и импортных автомобилей, практически, всех марок и моделей.</li>
+                                    <li>Мы даем гарантии на работы, произведенные нашими автомеханиками.</li>
+                                    <li>Вы всегда можете получить подробную консультацию у наших специалистов.</li>
+                                    <li>Использование Autodata Online для автосервиса, ремонта и диагностики.</li>
+                                    <li>Выполнение работ согласно спецификации.</li>
                                 </ul>
+                    <p>Обратившись в наш автосервис, Вы получите качественное обслуживание Вашего авто на высшем уровне и обязательно останетесь довольны результатами нашей работы и отношением к клиенту!</p>
         					</div>
 
         				</div><!-- end white-box -->
                     </div><!-- end column -->
 
-                    <div class="col-md-6">
-
-                        <div class="team-box">
-
-                            <div class="team-title">
-                                <h3>Наши специалисты</h3>
-                            </div><!-- end team-title -->
-
-                            <div class="inner">
-
-                                <div class="team-thumb">
-                                    <figure>
-                                        <img src="images/content/team-01.jpg" alt="">
-                                    </figure>
-                                    <div class="team-desc">
-                                        <p>Indra Kurniawan</p>
-                                        <span>Chief Executive Officer</span>
-                                    </div><!-- end team-desc -->
-                                </div><!-- end team-thumb -->
-
-                                <div class="team-thumb">
-                                    <figure>
-                                        <img src="images/content/team-02.jpg" alt="">
-                                    </figure>
-                                    <div class="team-desc">
-                                        <p>Richard Colila</p>
-                                        <span>Lead of Mechanic</span>
-                                    </div><!-- end team-desc -->
-                                </div><!-- end team-thumb -->
-
-                                <div class="team-thumb">
-                                    <figure>
-                                        <img src="images/content/team-01.jpg" alt="">
-                                    </figure>
-                                    <div class="team-desc">
-                                        <p>John Tetruno</p>
-                                        <span>Professional Mechanic</span>
-                                    </div><!-- end team-desc -->
-                                </div><!-- end team-thumb -->
-
-                                <div class="team-thumb">
-                                    <figure>
-                                        <img src="images/content/team-02.jpg" alt="">
-                                    </figure>
-                                    <div class="team-desc">
-                                        <p>Iwan Kurniawan</p>
-                                        <span>Professional Mechanic</span>
-                                    </div><!-- end team-desc -->
-                                </div><!-- end team-thumb -->
-
-                                <div class="team-thumb">
-                                    <figure>
-                                        <img src="images/content/team-01.jpg" alt="">
-                                    </figure>
-                                    <div class="team-desc">
-                                        <p>Julia Amandha</p>
-                                        <span>Professional Mechanic</span>
-                                    </div><!-- end team-desc -->
-                                </div><!-- end team-thumb -->
-
-                                <div class="team-thumb">
-                                    <figure>
-                                        <a href="#about.html">
-                                            <img src="images/content/view-team.png" alt="">
-                                        </a>
-                                    </figure>
-                                </div>
-
-                            </div>
 
                         </div><!-- end blue-box -->
                     </div><!-- end column -->
@@ -294,20 +233,12 @@
                 <div class="centered-title">
                     <h3>Отзывы о нас</h3>
                 </div>
-
-                <!-- Put this script tag to the <head> of your page -->
-                  <script type="text/javascript" src="https://vk.com/js/api/openapi.js?159"></script>
-
-                  <script type="text/javascript">
-                    VK.init({apiId: API_ID, onlyWidgets: true});
-                  </script>
-
-                  <!-- Put this div tag to the place, where the Comments block will be -->
-                  <div id="vk_comments"></div>
-                  <script type="text/javascript">
-                  VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-                  </script>
-
+                  <div>
+                    <div id="vk_comments"></div>
+                    <script type="text/javascript">
+                    VK.Widgets.Comments("vk_comments", {limit: 20, attach: "*"});
+                    </script>
+                  </div>
             </div><!-- end container -->
         </div><!-- cd-section -->
 
@@ -357,7 +288,7 @@
                     <div class="col-md-6 faq-column">
                         
                         <div class="general-title">
-                            <h3>Частые ввопросы</h3>
+                            <h3>Частые вопросы</h3>
                         </div><!-- end general-title -->
 
                         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -366,28 +297,45 @@
                             <div class="panel-heading" role="tab" id="headingOne">
                               <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                  How duis autem in hendrerit in velit molestie consequat ?
+                                  Какие услуги вы оказываете?
                                 </a>
                               </h4>
                             </div>
                             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                               <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                Мы оказываем полный спектр услуг по ремонту, диагностике и обслуживанию вашего авто.
+                                Наши специалисты подготовят ваш автомобиль к прохождению технического осмотра, длительной поездке или наступлению холодов. 
+                                Вы можете обратиться к нам с любой проблемой и получитьь консультацию наших сотрудников.
                               </div><!-- end panel-body -->
                             </div><!-- end .panel collapse -->
                           </div><!-- end panel -->
+                          
+                            <div class="panel panel-default">
+                              <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Когда можно к вам обратиться ?
+                                  </a>
+                                </h4>
+                              </div>
+                              <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                  Практически в любое время! Мы открыты с 10:00 - 19:00 без выходных и перерывов на обед, так же у нас работает горячая линия специалисты которой с радостью проконсультируют вас по телефону и при необходимости зарезервируют для вас подходящее время.
+                                </div><!-- end panel-body -->
+                              </div><!-- end .panel collapse -->
+                            </div><!-- end panel -->
 
                           <div class="panel panel-default">
                             <div class="panel-heading" role="tab" id="headingTwo">
                               <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                  Why el illum dolore eu feugiat nulla facilisis ?
+                                  У меня что то стучит/лязгает/свистит и т.д. можете ли вы сказать в чем проблема и как это исправить?
                                 </a>
                               </h4>
                             </div>
                             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                               <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                Конечно! Но лишь после осмотра и диагностики вашего автомобиля. Наши специалисты не только установят причину, но и исправят её сэкономив ваше время, деньги и нервы.
                               </div><!-- end panel-body -->
                             </div><!-- end .panel collapse -->
                           </div><!-- end panel -->
@@ -396,58 +344,17 @@
                             <div class="panel-heading" role="tab" id="headingThree">
                               <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                  How duis dolore te feugait nulla facilisi ?
+                                  Как часто нужно менять масло в двигателе?
                                 </a>
                               </h4>
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                               <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                              </div><!-- end panel-body -->
-                            </div><!-- end .panel collapse -->
-                          </div><!-- end panel -->
-
-                          <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFour">
-                              <h4 class="panel-title">
-                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                  How liber tempor cum soluta nobis eleifend ?
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-                              <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                              </div><!-- end panel-body -->
-                            </div><!-- end .panel collapse -->
-                          </div><!-- end panel -->
-
-                          <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingFive">
-                              <h4 class="panel-title">
-                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                  What is option congue nihil imperdiet doming id quod mazim ?
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-                              <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                              </div><!-- end panel-body -->
-                            </div><!-- end .panel collapse -->
-                          </div><!-- end panel -->
-
-                          <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="headingSix">
-                              <h4 class="panel-title">
-                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                  How duis autem in hendrerit in velit molestie consequat ?
-                                </a>
-                              </h4>
-                            </div>
-                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
-                              <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                  На первый взгляд, чем раньше Вы поменяете, тем это полезнее для двигателя автомобиля. Однако слишком частые замены несут за собой лишние и необоснованные траты. Какой интервал сервисной замены масла наиболее оптимален для Вашего автомобиля?
+                                  Однозначного ответа о частоте сервиса на интервалах 5, 10, 15 тыс. км для каждого автомобилиста нет и быть не может, так как под каждый автомобиль и тип двигателя свои рекомендации по сервису.                  
+                                  Каждый автомобиль имеет сервисную книгу завода-производителя, в которой содержатся рекомендации по интервалу замены масел, технических жидкостей и прочих расходников (фильтры, свечи, элементы тормозной системы и проч.).                                 
+                                  Также эта информация дублируется на сайте производителя автомобиля. Однако не стоит опираться на эти данные, так как они носят рекомендательный характер при соблюдении определенных, чаще всего усредненных условий эксплуатации.
+                                  Однако специалисты нашего сервиса могут вас проконсультировать в выборе масла для вашего конкретного автомобиля и сроках его замены, а так же избавить вас от лишних трат сил и времени взяв задачи по ТО на себя.
                               </div><!-- end panel-body -->
                             </div><!-- end .panel collapse -->
                           </div><!-- end panel -->
@@ -529,8 +436,8 @@
                                 <div class="widget-title-outer">
     								<h3 class="widget-title">О нас</h3>
                                 </div>
-								<p>Lusioto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
-								<p><a href="#" class="more">Learn More</a></p>
+								<p>Мы молодой Мозырский сервис основанный энтузиастами своего дела, начав свою работу с небольшой мастерской мы развились в крупную станцию технического обслуживания которая постонно растет и развиваается.</p>
+								<p><a href="#" class="more">Читать подробнее</a></p>
 							</div><!-- end inner -->
 						</div><!-- end widget -->
 					</div>
@@ -544,11 +451,11 @@
 								<table>
 									<tr>
 										<td><strong>Местоположение</strong></td>
-										<td> : Мозырь <br/>&nbsp;&nbsp;Молокозавод</td>
+										<td> : г.Мозырь <br/>&nbsp;&nbsp;ул. Ветровая 21</td>
 									</tr>
 									<tr>
 										<td><strong>Телефон</strong></td>
-										<td> : (25) 33 33 33</td>
+										<td> :<a class="tlg" href="tel:+3 (7529) 734 23 75">+375 (29) 734 23 75</a></td>
 									</tr>
 									<tr>
 										<td><strong>Email</strong></td>
@@ -556,7 +463,7 @@
 									</tr>
 									<tr>
 										<td><strong>Время работы</strong></td>
-										<td> : Вторник &dash; Суббота <br/> &nbsp;&nbsp;08:00 &dash; 19:00 PM</td>
+										<td> : Понедельник &dash; Воскресенье <br/> &nbsp;&nbsp;10:00 &dash; 19:00 </td>
 									</tr>
 								</table>
 							</div><!-- end inner -->
@@ -596,13 +503,17 @@
 			</div>
 		</footer>
 
-        <div class="footer-credit">
+    <div class="map"> <a name="map">
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Acdac385e30de127880d403c613c083bea6181ee90b4231d470ac6843895c71bf&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+    <img src="images/content/map.jpg" width="100%" height="400px" alt="г.Мозырь ул.Ветровая 21">
+  </div>
+    <div class="footer-credit">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                       <!-- copirate -->
                     </div><!-- end column -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 social">
                         <ul class="list-socmed">
                             <li>
                                 <a href="#"><i class="fa fa-fw fa-facebook"></i></a>

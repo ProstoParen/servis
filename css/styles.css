@@ -1384,7 +1384,7 @@ pre code {
     width: 41.6666666667%;
   }
 
-  .col-md-6 {
+  .col-md-6{
     width: 50%;
   }
 
@@ -3578,7 +3578,7 @@ tbody.collapse.in {
 
 .navbar-brand {
   float: left;
-  padding: 14.5px 15px;
+  padding: 0;
   font-size: 18px;
   line-height: 21px;
   height: 50px;
@@ -6175,13 +6175,15 @@ button.close {
 }
 .blue-box p {
   margin-bottom: 5px;
-  font-size: 13px;
+  font-size: 16px;
 }
 .blue-box .btn-white {
   background-color: #fff;
   margin-top: 10px;
 }
 .blue-box .tlg {
+  color: white;
+  border-bottom: none;
   font-weight: 700;
   font-size: 24px;
 }
@@ -13907,4 +13909,20 @@ html[xmlns] .slides {
   .col-partner {
     width: 100%;
   }
+}
+
+.social{
+  float: right;
+}
+
+.about-box{
+  width: 100%;
+}
+
+.map{
+  position: relative;
+}
+
+.map iframe {
+  position: absolute;
 }
