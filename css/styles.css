@@ -13926,3 +13926,32 @@ html[xmlns] .slides {
 .map iframe {
   position: absolute;
 }
+
+/* Table */
+table .price{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  color: #686461;
+}
+.price caption {
+  padding: 10px;
+  color: white;
+  background: #1360ad;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+}
+.price th {
+  border-bottom: 3px solid #B9B29F;
+  padding: 10px;
+  text-align: left;
+}
+.price td {
+  padding: 10px;
+}
+.price tr:nth-child(odd) {
+  background: white;
+}
+.price tr:nth-child(even) {
+  background: #E8E6D1;
+}
