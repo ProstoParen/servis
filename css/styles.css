@@ -6188,9 +6188,6 @@ button.close {
   font-size: 24px;
 }
 
-.row-box {
-  margin-bottom: 20px;
-}
 
 .centered-title {
   position: relative;
@@ -6283,6 +6280,7 @@ button.close {
 
 .service-col {
   position: relative;
+  height: 320px;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
