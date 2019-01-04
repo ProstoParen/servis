@@ -3607,9 +3607,11 @@ tbody.collapse.in {
   border: 1px solid transparent;
   border-radius: 3px;
 }
+
 .navbar-toggle:focus {
   outline: 0;
 }
+
 .navbar-toggle .icon-bar {
   display: block;
   width: 22px;
@@ -6022,6 +6024,12 @@ button.close {
   margin-bottom: 22px;
   margin-left: 12px;
 }
+
+.navbar-toggle.tel-but {
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
 .site-header .navbar-toggle .icon-bar {
   background: #103b7a;
 }
@@ -6034,6 +6042,12 @@ button.close {
   position: absolute;
   right: 70px;
   top: 25px;
+}
+
+.appoinment-header-tel {
+  position: absolute;
+  right: 250px;
+  top: 25px;  
 }
 
 .navbar-brand {
@@ -13952,4 +13966,20 @@ table .price{
 }
 .price tr:nth-child(even) {
   background: #E8E6D1;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

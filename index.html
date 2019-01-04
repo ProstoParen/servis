@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="yandex-verification" content="fe0bc4656401b733" />
+    <meta name="google-site-verification" content="xLUHtsUm0f1SIXChzb--P1lu1q8Q-tACTlO8lbEZBPQ" />
     <title>Простосервис - Мозырский сервис по ремонту автомобилей. СТО Мозырь.</title>
     <meta name="description" content="Ремонт автомобилей в Мозыре - диагностика, автоэлектрика, развал-схождение, шиномонтаж, капитальный ремонт двигателя и ходовой части.">
     <!-- Bootstrap -->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/normalize.min.css" rel="stylesheet">
   </head>
   <body>
     
@@ -20,14 +22,19 @@
     				<div class="row">
 
     					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".site-navigation" aria-expanded="false">
-				        	<span class="sr-only">Toggle navigation</span>
-				        	<span class="icon-bar"></span>
-				        	<span class="icon-bar"></span>
-				        	<span class="icon-bar"></span>
-				        </button>
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+    					<button type="button" class="navbar-toggle tel-but">
+                <a class="tlg" href="tel:+375298696969"><img src="images/content/phone.png" width="25" 
+                  height="25"  alt="Телефон"></a>
+				      </button>
 
 				        <div class="logo navbar-brand">
-				        	<a href="index.html"><img src="images/logo.png" alt="logo" width="150px" height="85px" title="Bengkel"></a>
+				        	<a href="index.html"><img src="images/logo.png" alt="Простосервис" width="150px" height="85px" title="Bengkel"></a>
 				        </div><!-- end logo -->
 
 				        <nav id="primary-navigation" class="site-navigation navbar-collapse collapse" role="navigation">
@@ -41,9 +48,8 @@
     							</ul>
     						</div><!-- end nav-menu -->
 				        </nav><!-- end #primary-navigation -->
-
 				        <div class="appoinment-header">
-				        	<a href="#contact" class="btn btn-md btn-default">Связаться с нами</a>
+				        	<a href="#contact" class="btn btn-md btn-default">Связаться с нами <br>+375 (29) 869 69 69</a>
 				        </div>
 
     				</div><!-- end row -->
@@ -51,12 +57,16 @@
     			</div><!-- end container-fluid -->
     		</div><!-- end header-navigation -->
     	</header><!-- end #masthead -->
-
+      <div class="visually-hidden">
+        <h1>
+          Станция технического обслуживания автомобилей в Мозыре - Простосервис.
+        </h1>
+      </div> 
     	<div class="featured-slider">
     		<div class="flexslider">
     			<ul class="slides">
 
-              <li style="background-image: url('images/content/slides-03.jpg')">
+              <li style="background-image: url('images/content/slides-3.jpg')">
                 <div class="flex-caption">
                   <h2 class="animated fadeInRight">Сервис с душой</h2>
                   <p class="animated fadeInLeft"><em>Репутация в Мозыре это - всё! Поэтому мы так ей дорожим.</em></p>
@@ -226,28 +236,28 @@
                     <div class="col-md-12">
                         <div class="col-partner">
                             <div>
-                                <img src="images/content/brand-01.png" alt="">
+                                <img src="images/content/brand-01.png" alt="Автодата">
                             </div>
                         </div><!-- end column -->
 
                         <div class="col-partner">
                             <div>
-                                <img src="images/content/brand-02.png" alt="">
+                                <img src="images/content/brand-02.png" alt="Alpine">
                             </div>
                         </div><!-- end column -->
                         <div class="col-partner">
                             <div>
-                                <img src="images/content/logo-arm.png" alt="">
+                                <img src="images/content/logo-arm.png" alt="ARMTEK">
                             </div>
                         </div><!-- end column -->
                         <div class="col-partner">
                             <div>
-                                <img src="images/content/logo_auto1.svg" alt="">
+                                <img src="images/content/logo_auto1.svg" alt="Авто 1">
                             </div>
                         </div><!-- end column -->
                         <div class="col-partner">
                             <div>
-                                <img src="images/content/logo_ae.png" alt="">
+                                <img src="images/content/logo_ae.png" alt="AE&T">
                             </div>
                         </div><!-- end column -->
                     </div><!-- end inner -->
@@ -385,8 +395,12 @@
 										<td><strong>Время работы</strong></td>
                     <td> : Понедельник &dash; Воскресенье <br/> &nbsp;&nbsp;10:00 &dash; 19:00<br/>
                     Обед: 13:00 &dash; 14:00 </td>
-                    
-									</tr>
+                  </tr>
+                  <tr>  
+                    <td><strong>Наша группа</strong></td>
+                    <td><a href="https://vk.com/id449270469"><img src="images/content/VK_icon.png" width="50" 
+                      height="50"  alt="Вконтакте"></a></td>
+                  </tr>
 								</table>
 							</div><!-- end inner -->
 						</div><!-- end widget -->
@@ -400,19 +414,19 @@
                   </div>
 								<ul class="list-galleries">
 									<li>
-										<a href="images/content/01.jpg" id="gallery"><img src="images/content/01.jpg" height="100" width="100" alt=""></a>
+										<a href="images/content/01.jpg" id="gallery"><img src="images/content/01.jpg" height="100" width="100" alt="Фото сервиса"></a>
 									</li>
 									<li>
-										<a href="images/content/02.jpg" id="gallery"><img src="images/content/02.jpg" height="100" width="100" alt=""></a>
+										<a href="images/content/02.jpg" id="gallery"><img src="images/content/02.jpg" height="100" width="100" alt="Фото сервиса"></a>
 									</li>
 									<li>
-										<a href="images/content/03.jpg" id="gallery"><img src="images/content/03.jpg" height="100" width="100" alt=""></a>
+										<a href="images/content/03.jpg" id="gallery"><img src="images/content/03.jpg" height="100" width="100" alt="Фото сервиса"></a>
 									</li>
 									<li>
-										<a href="images/content/04.jpg" id="gallery"><img src="images/content/04.jpg" height="100" width="100" alt=""></a>
+										<a href="images/content/04.jpg" id="gallery"><img src="images/content/04.jpg" height="100" width="100" alt="Фото сервиса"></a>
 									</li>
 									<li>
-										<a href="images/content/05.jpg" id="gallery"><img src="images/content/05.jpg" height="100" width="100" alt=""></a>
+										<a href="images/content/05.jpg" id="gallery"><img src="images/content/05.jpg" height="100" width="100" alt="Фото сервиса"></a>
 									</li>
 								</ul>
 							</div><!-- end inner -->
