@@ -6046,8 +6046,10 @@ button.close {
 
 .appoinment-header-tel {
   position: absolute;
-  right: 250px;
-  top: 25px;  
+  right: 320px;
+  top: 12px;  
+  font-weight: 700;
+  font-size: 35px;
 }
 
 .navbar-brand {
@@ -6063,6 +6065,13 @@ button.close {
   padding: 80px 0;
   margin-bottom: 40px;
   color: #fff;
+}
+
+
+@media screen and (max-width: 800px) {
+  .head-title {
+    padding: 15px 0;
+  }
 }
 
 .page-title {
@@ -13874,6 +13883,7 @@ html[xmlns] .slides {
   }
 }
 @media screen and (max-width: 480px) {
+  .appoinment-header-tel,
   .appoinment-header {
     display: none;
   }
