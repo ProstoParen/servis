@@ -13927,6 +13927,13 @@ html[xmlns] .slides {
     padding: 30px;
   }
 }
+
+@media screen and (max-width: 1250px) {
+  .appoinment-header-tel{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .col-partner {
     width: 100%;
